@@ -64,5 +64,5 @@ f.write(str(len(knap_items)) + '\n')
 for item in sorted(knap_items, key=lambda x: x[0]):
     f.write(str(item[0]) + '\n')
 
+print('\nvysledok zapisany do suboru')
 f.close()
-print(knap_items)
